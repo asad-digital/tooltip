@@ -1,37 +1,35 @@
-<style>
-	:root {
-  	--tooltipBg: #305DFF;
-    --tooltipText: white;
-  }
-  .ad-tooltip-content {
-    color: var(--tooltipText);
-    background-color: var(--tooltipBg);
-    padding: 10px;
-    position: absolute;
-    bottom: 100%;
-    margin-bottom: 16px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 200px;
-    font-size: 14px;
-    line-height: 1.3;
-    opacity: 0;
-    pointer-events: none;
-    transition: opacity ease .2s;
-  }
-  .ad-tooltip-active {
-    opacity: 1;
-  }
-  .ad-tooltip-icon {
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    transform: translateX(-50%);
-    display: flex;
-    color: var(--tooltipBg);
-  }
-  .ad-tooltip-trigger {
-    position: relative;
-    cursor: help;
-  }
-</style>
+:root {
+  --tooltipBg: #305DFF;
+  --tooltipText: white;
+}
+.ad-tooltip-content {
+  color: var(--tooltipText);
+  background-color: var(--tooltipBg);
+  padding: 10px;
+  position: absolute;
+  bottom: 100%;
+  margin-bottom: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 200px;
+  font-size: 14px;
+  line-height: 1.3;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity ease .2s;
+}
+.ad-tooltip-active {
+  opacity: 1;
+}
+.ad-tooltip-icon {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  color: var(--tooltipBg);
+}
+.ad-tooltip-trigger {
+  position: relative;
+  cursor: help;
+}
