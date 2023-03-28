@@ -1,7 +1,11 @@
 <style>
+	:root {
+  	--tooltipBg: #305DFF;
+    --tooltipText: white;
+  }
   .ad-tooltip-content {
-    color: white;
-    background-color: #305DFF;
+    color: var(--tooltipText);
+    background-color: var(--tooltipBg);
     padding: 10px;
     position: absolute;
     bottom: 100%;
@@ -24,6 +28,7 @@
     left: 50%;
     transform: translateX(-50%);
     display: flex;
+    color: var(--tooltipBg);
   }
   .ad-tooltip-trigger {
     position: relative;
