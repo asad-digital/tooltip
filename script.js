@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(function() {
   $('.ad-tooltip').each(function(){
     var tooltipText = $(this).attr('ad-tooltip');
     $(this).addClass('ad-tooltip-trigger');
